@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "เสื้อยืด Minimal White",
+    "mood": "minimal",
+    "type": "t-shirt",
+    "size": "M",
+    "price": 290,
+    "image": "images/minimal.jpg",
+    "description": "เสื้อยืดคอตตอน 100% สไตล์มินิมอล สีขาวสว่าง ผ้านุ่ม ระบายอากาศได้ดี เหมาะกับทุกวัน"
+  },
+  {
+    "id": 2,
+    "name": "เสื้อยืด Minimal White",
+    "mood": "minimal",
+    "type": "t-shirt",
+    "size": "L",
+    "price": 290,
+    "image": "images/minimal.jpg",
+    "description": "เสื้อยืดคอตตอน 100% สไตล์มินิมอล สีขาวสว่าง ผ้านุ่ม ระบายอากาศได้ดี เหมาะกับทุกวัน"
+  },
+  {
+    "id": 3,
+    "name": "เสื้อยืด Minimal Black",
+    "mood": "minimal",
+    "type": "t-shirt",
+    "size": "M",
+    "price": 290,
+    "image": "images/minimal.jpg",
+    "description": "เสื้อยืดมินิมอลสีดำเรียบหรู ตัดเย็บประณีต ทรงสวยใส่สบาย ไม่ย้วยง่าย"
+  },
+  {
+    "id": 4,
+    "name": "เสื้อยืด Minimal Black",
+    "mood": "minimal",
+    "type": "t-shirt",
+    "size": "L",
+    "price": 290,
+    "image": "images/minimal.jpg",
+    "description": "เสื้อยืดมินิมอลสีดำเรียบหรู ตัดเย็บประณีต ทรงสวยใส่สบาย ไม่ย้วยง่าย"
+  },
+  {
+    "id": 5,
+    "name": "เสื้อยืด Street Oversize Graphic",
+    "mood": "street",
+    "type": "t-shirt",
+    "size": "L",
+    "price": 350,
+    "image": "images/street.jpg",
+    "description": "เสื้อยืดทรง Oversize ลายสกรีนกราฟิกสุดเท่ เพิ่มลุค Streetwear อย่างลงตัว"
+  },
+  {
+    "id": 6,
+    "name": "เสื้อยืด Street Oversize Graphic",
+    "mood": "street",
+    "type": "t-shirt",
+    "size": "XL",
+    "price": 350,
+    "image": "images/street.jpg",
+    "description": "เสื้อยืดทรง Oversize ลายสกรีนกราฟิกสุดเท่ เพิ่มลุค Streetwear อย่างลงตัว"
+  },
+  {
+    "id": 7,
+    "name": "เสื้อยืด Cozy Cream Cotton",
+    "mood": "cozy",
+    "type": "t-shirt",
+    "size": "M",
+    "price": 320,
+    "image": "images/cozy.jpg",
+    "description": "เสื้อยืดสีครีมอุ่นนุ่ม ผลิตจากเส้นใยธรรมชาติ ให้สัมผัสสบายตัวตลอดวัน"
+  },
+  {
+    "id": 8,
+    "name": "เสื้อยืด Cozy Cream Cotton",
+    "mood": "cozy",
+    "type": "t-shirt",
+    "size": "L",
+    "price": 320,
+    "image": "images/cozy.jpg",
+    "description": "เสื้อยืดสีครีมอุ่นนุ่ม ผลิตจากเส้นใยธรรมชาติ ให้สัมผัสสบายตัวตลอดวัน"
+  },
+  {
+    "id": 9,
+    "name": "เสื้อยืด Vintage Retro Wash",
+    "mood": "vintage",
+    "type": "t-shirt",
+    "size": "L",
+    "price": 390,
+    "image": "images/vintage.jpg",
+    "description": "เสื้อยืดวินเทจสไตล์ Retro Wash ฟอกสีเฉพาะตัว ได้ลุคเก่าเท่แบบมีคลาส"
+  },
+  {
+    "id": 10,
+    "name": "เสื้อยืด Vintage Retro Wash",
+    "mood": "vintage",
+    "type": "t-shirt",
+    "size": "XL",
+    "price": 390,
+    "image": "images/vintage.jpg",
+    "description": "เสื้อยืดวินเทจสไตล์ Retro Wash ฟอกสีเฉพาะตัว ได้ลุคเก่าเท่แบบมีคลาส"
+  }
+]

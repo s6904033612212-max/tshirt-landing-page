@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ระบบจัดการคำสั่งซื้อ — FOURM Admin</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      background-color: var(--surface-card);
+      border: 1px solid var(--border-color);
+      margin-top: 2rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background-color: var(--surface-color);
+      color: var(--text-main);
+      font-family: var(--font-display);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 1rem;
+      border-bottom: 2px solid var(--border-color);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 1rem;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-main);
+      vertical-align: top;
+    }
+
+    tr:hover td {
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+
+    /* ราคาเน้นสีส้ม */
+    td:nth-child(5) {
+      color: var(--accent-color);
+      font-weight: 600;
+      font-family: var(--font-display);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">FOURM<span>.ADMIN</span></a>
+      <nav class="nav-links">
+        <a href="index.html" class="btn btn-outline" style="padding: 0.4rem 1rem; font-size: 0.85rem;">ดูหน้าเว็บ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="section-padding">
+    <div class="container">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <h1 style="font-size: 2rem; margin-bottom: 0.3rem;">ORDERS MANAGEMENT</h1>
+          <p style="color: var(--text-muted);">รายการสั่งซื้อทั้งหมด (เรียงจากรายการล่าสุด)</p>
+        </div>
+      </div>
+
+      <!-- Table Container -->
+      <div class="table-container">
+        <table id="ordersTable">
+          <thead>
+            <tr>
+              <th>วันเวลา</th>
+              <th>ชื่อลูกค้า</th>
+              <th>เบอร์โทร / Line</th>
+              <th>รายการสินค้า</th>
+              <th>จำนวนเงินรวม</th>
+              <th>หมายเหตุ / ที่อยู่</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- script.js จะดึงข้อมูล CSV จาก Google Sheets มาใส่ในนี้อัตโนมัติ -->
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer style="border-top: 1px solid var(--border-color); padding: 2rem 0; text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+    <div class="container">
+      <p>&copy; 2026 FOURM Clothing. Admin System.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

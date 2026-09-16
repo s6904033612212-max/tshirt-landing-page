@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>รายการสินค้า — FOURM</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Styling เพิ่มเติมเฉพาะส่วน Filter Bar บนหน้า Product */
+    .filter-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .filter-btn {
+      background-color: var(--surface-color);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 0.5rem 1.2rem;
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      border-radius: var(--radius-sharp);
+      text-transform: uppercase;
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      background-color: var(--text-main);
+      color: var(--bg-color);
+      border-color: var(--text-main);
+    }
+
+    .filter-btn.active[data-mood="street"],
+    .filter-btn[data-mood="street"]:hover {
+      background-color: var(--accent-color);
+      color: #ffffff;
+      border-color: var(--accent-color);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">FOURM<span>.</span></a>
+      <nav class="nav-links">
+        <a href="index.html" style="color: var(--text-muted); margin-right: 1.5rem;">หน้าแรก</a>
+        <a href="product.html" style="color: var(--accent-color); font-weight: 500;">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Product Section -->
+  <main class="section-padding">
+    <div class="container">
+      
+      <!-- หัวข้อหน้า -->
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">OUR PRODUCTS</h1>
+        <p style="color: var(--text-muted);">เลือกเสื้อยืดที่ตรงกับสไตล์ของคุณ</p>
+      </div>
+
+      <!-- ปุ่มกรอง (Filter Bar) - id="filter-bar" ตามที่ script.js กำหนด -->
+      <div id="filter-bar" class="filter-bar">
+        <button class="filter-btn active" data-mood="all">ทั้งหมด</button>
+        <button class="filter-btn" data-mood="minimal">Minimal</button>
+        <button class="filter-btn" data-mood="street">Street</button>
+        <button class="filter-btn" data-mood="cozy">Cozy</button>
+        <button class="filter-btn" data-mood="vintage">Vintage</button>
+      </div>
+
+      <!-- แสดงรายการสินค้า - id="product-list" ตามที่ script.js กำหนด -->
+      <div id="product-list" class="product-grid">
+        <!-- script.js จะนำสินค้ามา render ลงในนี้อัตโนมัติ -->
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer style="border-top: 1px solid var(--border-color); padding: 2rem 0; text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+    <div class="container">
+      <p>&copy; 2026 FOURM Clothing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

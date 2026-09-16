@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOURM — ไม่ใช่แค่เสื้อยืด แต่คือมู้ดที่คุณเลือกเป็น</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">FOURM<span>.</span></a>
+      <nav class="nav-links">
+        <a href="index.html" style="color: var(--accent-color); margin-right: 1.5rem; font-weight: 500;">หน้าแรก</a>
+        <a href="product.html" class="btn btn-outline" style="padding: 0.4rem 1rem; font-size: 0.85rem;">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="padding: 6rem 0 4rem; border-bottom: 1px solid var(--border-color); text-align: center; background: linear-gradient(180deg, rgba(255,85,0,0.05) 0%, rgba(13,13,13,1) 100%);">
+    <div class="container">
+      <span style="color: var(--accent-color); font-weight: 600; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; display: block; margin-bottom: 1rem;">Urban Streetwear Collection</span>
+      <h1 style="font-size: clamp(2rem, 5vw, 3.8rem); line-height: 1.2; margin-bottom: 1.5rem; text-transform: uppercase;">
+        ไม่ใช่แค่เสื้อยืด<br>
+        <span style="color: var(--accent-color);">แต่คือมู้ดที่คุณเลือกเป็น</span>
+      </h1>
+      <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 2.5rem; font-size: 1.05rem;">
+        FOURM นำเสนอเสื้อยืดคุณภาพ คัตติ้งเนี้ยบ สะท้อนเอกลักษณ์และความเป็นคุณในทุกวัน
+      </p>
+      <a href="product.html" class="btn btn-primary" style="font-size: 1rem; padding: 1rem 2.5rem;">ดูสินค้าทั้งหมด</a>
+    </div>
+  </section>
+
+  <!-- Mood Selection Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <h2 style="font-size: 2rem; margin-bottom: 0.5rem;">CHOOSE YOUR MOOD</h2>
+        <p style="color: var(--text-muted);">เลือกสไตล์ที่ใช่ บ่งบอกความเป็นตัวคุณ</p>
+      </div>
+
+      <!-- Grid แสดง 4 สไตล์ -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+        
+        <!-- Minimal Card -->
+        <a href="product.html?mood=minimal" class="product-card" style="text-align: center; padding: 2.5rem 1.5rem; text-decoration: none;">
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text-main);">MINIMAL</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem;">เรียบง่าย คลาสสิก ใส่ได้ทุกวัน</p>
+          <span class="btn btn-outline" style="width: 100%;">เลือกสไตล์นี้</span>
+        </a>
+
+        <!-- Street Card -->
+        <a href="product.html?mood=street" class="product-card" style="text-align: center; padding: 2.5rem 1.5rem; text-decoration: none; border-color: var(--accent-color);">
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--accent-color);">STREET</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem;">ทรง Oversize โดดเด่นด้วยกราฟิก</p>
+          <span class="btn btn-primary" style="width: 100%;">เลือกสไตล์นี้</span>
+        </a>
+
+        <!-- Cozy Card -->
+        <a href="product.html?mood=cozy" class="product-card" style="text-align: center; padding: 2.5rem 1.5rem; text-decoration: none;">
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text-main);">COZY</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem;">ผ้านุ่ม สัมผัสเบาสบาย อบอุ่น</p>
+          <span class="btn btn-outline" style="width: 100%;">เลือกสไตล์นี้</span>
+        </a>
+
+        <!-- Vintage Card -->
+        <a href="product.html?mood=vintage" class="product-card" style="text-align: center; padding: 2.5rem 1.5rem; text-decoration: none;">
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text-main);">VINTAGE</h3>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem;">Retro Wash ฟอกสีได้ลุคเก๋า</p>
+          <span class="btn btn-outline" style="width: 100%;">เลือกสไตล์นี้</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="border-top: 1px solid var(--border-color); padding: 2rem 0; text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+    <div class="container">
+      <p>&copy; 2026 FOURM Clothing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

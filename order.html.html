@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สั่งซื้อสินค้า — FOURM</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .order-card {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: var(--surface-card);
+      border: 1px solid var(--border-color);
+      padding: 2.5rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-main);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      background-color: var(--surface-color);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      border-radius: var(--radius-sharp);
+      transition: var(--transition);
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--accent-color);
+    }
+
+    .form-control[readonly] {
+      background-color: #111;
+      color: var(--accent-color);
+      font-weight: 600;
+      cursor: not-allowed;
+    }
+
+    textarea.form-control {
+      resize: vertical;
+      min-height: 90px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">FOURM<span>.</span></a>
+      <nav class="nav-links">
+        <a href="product.html" style="color: var(--text-muted);">← กลับไปเลือกสินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="section-padding">
+    <div class="container">
+      
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <h1 style="font-size: 2.2rem; margin-bottom: 0.5rem;">CHECKOUT</h1>
+        <p style="color: var(--text-muted);">กรอกข้อมูลเพื่อยืนยันการสั่งซื้อ</p>
+      </div>
+
+      <div class="order-card">
+        <!-- Form สั่งซื้อ id="orderForm" -->
+        <form id="orderForm">
+          
+          <div class="form-group">
+            <label for="items">รายการสินค้า</label>
+            <input type="text" id="items" class="form-control" readonly required>
+          </div>
+
+          <div class="form-group">
+            <label for="total">จำนวนเงินรวม (บาท)</label>
+            <input type="text" id="total" class="form-control" readonly required>
+          </div>
+
+          <div class="form-group">
+            <label for="customerName">ชื่อผู้สั่งซื้อ *</label>
+            <input type="text" id="customerName" class="form-control" placeholder="ชื่อ-นามสกุล" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact">เบอร์โทรศัพท์ / Line ID *</label>
+            <input type="text" id="contact" class="form-control" placeholder="08X-XXX-XXXX หรือ Line ID" required>
+          </div>
+
+          <div class="form-group">
+            <label for="note">หมายเหตุ / ที่อยู่จัดส่ง</label>
+            <textarea id="note" class="form-control" placeholder="ระบุที่อยู่จัดส่งสินค้า หรือคำขอเพิ่มเติม (ถ้ามี)"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem; font-size: 1rem; margin-top: 1rem;">
+            ยืนยันสั่งซื้อ
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer style="border-top: 1px solid var(--border-color); padding: 2rem 0; text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+    <div class="container">
+      <p>&copy; 2026 FOURM Clothing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
