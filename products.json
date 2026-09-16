@@ -7,7 +7,7 @@
     "size": "M",
     "price": 290,
     "image": "images/minimal.jfif",
-    "description": "เสื้อยืดคอตตอน 100% สไตล์มินิมอล สีขาวสว่าง ผ้านุ่ม ระบายอากาศได้ดี เหมาะกับทุกวัน"
+    "description": "เสื้อยืดสไตล์มินิมอล สีครีม ผ้านุ่มใส่สบาย"
   },
   {
     "id": 2,
@@ -17,27 +17,27 @@
     "size": "L",
     "price": 290,
     "image": "images/minimal.jfif",
-    "description": "เสื้อยืดคอตตอน 100% สไตล์มินิมอล สีขาวสว่าง ผ้านุ่ม ระบายอากาศได้ดี เหมาะกับทุกวัน"
+    "description": "เสื้อยืดสไตล์มินิมอล สีครีม ผ้านุ่มใส่สบาย"
   },
   {
     "id": 3,
-    "name": "เสื้อยืด Minimal Black",
+    "name": "เสื้อยืด Minimal White",
     "mood": "minimal",
     "type": "t-shirt",
     "size": "M",
     "price": 290,
     "image": "images/minimal.jfif",
-    "description": "เสื้อยืดมินิมอลสีดำเรียบหรู ตัดเย็บประณีต ทรงสวยใส่สบาย ไม่ย้วยง่าย"
+    "description": "เสื้อยืดสไตล์มินิมอล สีครีม ผ้านุ่มใส่สบาย"
   },
   {
     "id": 4,
-    "name": "เสื้อยืด Minimal Black",
+    "name": "เสื้อยืด Minimal White",
     "mood": "minimal",
     "type": "t-shirt",
     "size": "L",
     "price": 290,
     "image": "images/minimal.jfif",
-    "description": "เสื้อยืดมินิมอลสีดำเรียบหรู ตัดเย็บประณีต ทรงสวยใส่สบาย ไม่ย้วยง่าย"
+    "description": "เสื้อยืดสไตล์มินิมอล สีครีม ผ้านุ่มใส่สบาย"
   },
   {
     "id": 5,
