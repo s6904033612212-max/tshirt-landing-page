@@ -6,7 +6,7 @@
     "type": "t-shirt",
     "size": "M",
     "price": 290,
-    "image": "images/Minimal Everyday.jpg",
+    "image": "images/minimal.jfif",
     "description": "เสื้อยืดคอตตอน 100% สไตล์มินิมอล สีขาวสว่าง ผ้านุ่ม ระบายอากาศได้ดี เหมาะกับทุกวัน"
   },
   {
@@ -16,7 +16,7 @@
     "type": "t-shirt",
     "size": "L",
     "price": 290,
-    "image": "images/minimal.jpg",
+    "image": "images/minimal.jfif",
     "description": "เสื้อยืดคอตตอน 100% สไตล์มินิมอล สีขาวสว่าง ผ้านุ่ม ระบายอากาศได้ดี เหมาะกับทุกวัน"
   },
   {
@@ -26,7 +26,7 @@
     "type": "t-shirt",
     "size": "M",
     "price": 290,
-    "image": "images/minimal.jpg",
+    "image": "images/minimal.jfif",
     "description": "เสื้อยืดมินิมอลสีดำเรียบหรู ตัดเย็บประณีต ทรงสวยใส่สบาย ไม่ย้วยง่าย"
   },
   {
@@ -36,7 +36,7 @@
     "type": "t-shirt",
     "size": "L",
     "price": 290,
-    "image": "images/minimal.jpg",
+    "image": "images/minimal.jfif",
     "description": "เสื้อยืดมินิมอลสีดำเรียบหรู ตัดเย็บประณีต ทรงสวยใส่สบาย ไม่ย้วยง่าย"
   },
   {
@@ -46,7 +46,7 @@
     "type": "t-shirt",
     "size": "L",
     "price": 350,
-    "image": "images/Street Vibes.jpg",
+    "image": "images/street.jfif",
     "description": "เสื้อยืดทรง Oversize ลายสกรีนกราฟิกสุดเท่ เพิ่มลุค Streetwear อย่างลงตัว"
   },
   {
@@ -56,7 +56,7 @@
     "type": "t-shirt",
     "size": "XL",
     "price": 350,
-    "image": "images/street.jpg",
+    "image": "images/street.jfif",
     "description": "เสื้อยืดทรง Oversize ลายสกรีนกราฟิกสุดเท่ เพิ่มลุค Streetwear อย่างลงตัว"
   },
   {
@@ -66,7 +66,7 @@
     "type": "t-shirt",
     "size": "M",
     "price": 320,
-    "image": "images/Cozy Casual.jpg",
+    "image": "images/cozy.jfif",
     "description": "เสื้อยืดสีครีมอุ่นนุ่ม ผลิตจากเส้นใยธรรมชาติ ให้สัมผัสสบายตัวตลอดวัน"
   },
   {
@@ -76,7 +76,7 @@
     "type": "t-shirt",
     "size": "L",
     "price": 320,
-    "image": "images/cozy.jpg",
+    "image": "images/cozy.jfif",
     "description": "เสื้อยืดสีครีมอุ่นนุ่ม ผลิตจากเส้นใยธรรมชาติ ให้สัมผัสสบายตัวตลอดวัน"
   },
   {
@@ -86,7 +86,7 @@
     "type": "t-shirt",
     "size": "L",
     "price": 390,
-    "image": "images/Vintage Retro.jpg",
+    "image": "images/vintage.jfif",
     "description": "เสื้อยืดวินเทจสไตล์ Retro Wash ฟอกสีเฉพาะตัว ได้ลุคเก่าเท่แบบมีคลาส"
   },
   {
@@ -96,7 +96,7 @@
     "type": "t-shirt",
     "size": "XL",
     "price": 390,
-    "image": "images/vintage.jpg",
+    "image": "images/vintage.jfif",
     "description": "เสื้อยืดวินเทจสไตล์ Retro Wash ฟอกสีเฉพาะตัว ได้ลุคเก่าเท่แบบมีคลาส"
   }
 ]
